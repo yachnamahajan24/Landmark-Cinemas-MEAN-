@@ -1,0 +1,39 @@
+extends layout
+
+block content
+    h1.text-warning More Details of Movies
+    p.font
+    | 
+    span.colr Name:
+    |
+    span.font #{currentMovie.name} 
+    
+
+    p
+    | 
+    span.colr Type of Movie:
+    | 
+    span.font #{currentMovie.type}
+
+    p
+    | 
+    span.colr Description:
+    | 
+    span.font #{currentMovie.description}
+
+    p
+    | 
+    span.colr Price:
+    | 
+    span.font #{currentMovie.price}
+
+    p
+    | 
+    span.colr Actor:
+    | 
+    span.font #{currentMovie.actor}
+    
+
+    p.add
+      a.btn.btn-warning(href='/list') Back
+

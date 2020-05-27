@@ -1,0 +1,28 @@
+div{
+    background-color:black ;
+    color: white;
+}
+img{
+    margin-left: 100px;
+    margin-top: 3px;
+}
+a{
+    color:white;
+    text-decoration: none;
+    padding: 20px;
+       position: relative;
+  bottom: 20px;
+  border-left: 1px solid gray;
+}
+a:hover{
+    color:orangered;
+}
+footer{
+    
+    color: darkslateblue;
+    text-align: center;
+    height: 50px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: small;
+}

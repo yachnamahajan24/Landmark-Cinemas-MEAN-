@@ -1,0 +1,32 @@
+<hr>
+<hr>
+<h1 class="land">Add New Movie</h1>
+<hr>
+<hr>
+
+<form (ngSubmit) ="createNewMovie(newMovie)">
+    <div class="form-group">
+        <label class="font" for="name">Name</label>
+        <input class="form-control" [(ngModel)] ="newMovie.name" id="name" name="name" required="required">
+    </div>
+    <div class="form-group">
+        <label class="font" for="type">Type</label>
+        <input class="form-control" [(ngModel)] ="newMovie.type" id="type" name="type" required="required">
+    </div>
+    <div class="form-group">
+        <label class="font" for="description">Description</label>
+        <input class="form-control" [(ngModel)]="newMovie.description" id="type" name="description" required="required">
+    </div>
+    <div class="form-group">
+        <label class="font" for="price">Price</label>
+        <input class="form-control" [(ngModel)]="newMovie.price" id="type" name="price" required="required">
+    </div>
+    <div class="form-group">
+        <label class="font" for="actor">Actor</label>
+        <input class="form-control" [(ngModel)]="newMovie.actor" id="type" name="actor" required="required">
+    </div>
+
+    <button type="submit" [routerLink] = "">Create</button>
+</form>
+
+

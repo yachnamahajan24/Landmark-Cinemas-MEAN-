@@ -1,0 +1,17 @@
+<!-- <li *ngFor= "let movie of movies">{{ movie.name }}{{ movie.type}}</li> -->
+
+<h1 class="land">Movie List</h1>
+<h2 class="text-warning">Here is a  list of Movies Playing this Week !!!</h2>
+<div id="main"><div id="sidebar" *ngFor="let movie of movies">
+<ul>
+    <li>{{movie.name}}<a routerLink="/movie/{{movie._id}}"><br><span>MORE INFO</span></a></li>
+</ul>
+</div> 
+<!-- <div id="page-wrap"><img src="/assets/movielist.jpg"></div> -->
+</div>
+<p class="add"><a class="btn-warning" routerLink = "/create">ADD NEW MOVIE</a></p>
+<router-outlet></router-outlet>
+
+
+
+

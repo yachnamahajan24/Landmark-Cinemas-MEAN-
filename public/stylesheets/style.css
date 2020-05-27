@@ -1,0 +1,110 @@
+.review {
+    padding-bottom: 5px;
+}
+
+.panel-body.review-container {
+    padding-top: 0;
+}
+
+.review-header {
+    margin-bottom: 10px;
+}
+
+.reviewAuthor {
+    margin: 0 5px;
+}
+
+.reviewTimestamp {
+    color: #ccc;
+}
+h1{
+    text-align: center;
+}
+h2{
+     font-family:cursive;
+         
+}
+.navbar-default {
+    background-color: black;
+    font-size: 20px;
+    height: 70px;
+    border: skyblue;
+    padding-top: 10px;
+}
+.main{
+    width: 80%;
+    margin-left: 90px;
+   
+}
+.main1{
+    width: 100%;
+   
+   
+}
+
+body {
+    font-family: serif;
+    background-color: whitesmoke;
+    color: black;
+    overflow: scroll;
+    font-family: sans-serif;
+}
+li p{
+    text-align: left;
+}
+
+body p {
+    font-size: 20px;
+    /* text-align: center; */
+    color: black;
+}
+a {
+    color: darkslateblue;
+
+}
+.font{
+    font-size: 20px;;
+}
+.colr{
+    color: darkslateblue;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.add{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 90px;;
+}
+a:hover{
+    color:darkorange;
+}
+
+.listitem1 {
+    color: pink;
+}
+
+div.navbar.navbar-default a:hover {
+    background-color: gray;
+    color: #ec7f98;
+    height: 50px;
+}
+
+.container ul li {
+    font-size: 20px;
+}
+
+nav navbar-nav {
+    padding: 0px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+footer {
+   margin-top: 30px;
+  
+}
+
+
+

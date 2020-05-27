@@ -1,0 +1,29 @@
+extends layout
+
+block content
+    hr
+    hr
+    h1.text-warning Add New Movie
+    hr
+    hr
+
+    form(method='POST' action='/new')
+        div.form-group
+            label(for='name') Name:
+            input#name.form-control(type='text', name='name')
+        div.form-group
+            label(for='type') Type of Movie:
+            input#type.form-control(type='text',  name='type')
+        div.form-group
+            label(for='description') Description:
+            input#description.form-control(type='text', name='description')
+        div.form-group
+            label(for='price') Price:
+            input#price.form-control(type='text', name='price')
+        div.form-group
+            label(for='actor') Actor:
+            input#actor.form-control(type='text', name='actor')
+       
+
+        p.add
+            button.btn.btn-warning.mb-5(type='submit')  Insert Movie
